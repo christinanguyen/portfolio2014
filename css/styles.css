@@ -126,7 +126,8 @@ nav ul li {
 	margin-left: 2rem;
 }
 
-nav ul li a {
+nav ul li span {
+	cursor: pointer;
 	font-family: 'Avenir Regular', 'Helvetica Neue', Arial, sans-serif;
 	color: #111;
 	font-size: 16px;
