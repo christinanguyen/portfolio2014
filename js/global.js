@@ -39,7 +39,7 @@ $(document).ready(function() {
         i = $this.data('num');
         $('#ProjectDetail .grid').load($this.data('url'), function() {
 
-            $('html, body').delay(100).animate({
+            $('html, body').animate({
                 scrollTop: ($('#ProjectDetail .grid').offset().top -50)
             },700,'easeInOutExpo');
 
