@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Adelle Regular';
+    src: url('../fonts/adelle-regular.eot');
+    src: url('../fonts/adelle-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/adelle-regular.woff') format('woff'),
+         url('../fonts/adelle-regular.ttf') format('truetype'),
+         url('../fonts/adelle-regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adelle Semibold';
+    src: url('../fonts/adelle-semibold.eot');
+    src: url('../fonts/adelle-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/adelle-semibold.woff') format('woff'),
+         url('../fonts/adelle-semiboldt.ttf') format('truetype'),
+         url('../fonts/adelle-semibold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Regular';
+    src: url('../fonts/avenir-regular.eot');
+    src: url('../fonts/avenir-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/avenir-regular.woff') format('woff'),
+         url('../fonts/avenir-regular.ttf') format('truetype'),
+         url('../fonts/avenir-regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Regular Oblique';
+    src: url('../fonts/avenir-regular-oblique.eot');
+    src: url('../fonts/avenir-regular-oblique.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/avenir-regular-oblique.woff') format('woff'),
+         url('../fonts/avenir-regular-oblique.ttf') format('truetype'),
+         url('../fonts/avenir-regular-oblique.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Medium';
+    src: url('../fonts/avenir-medium.eot');
+    src: url('../fonts/avenir-medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/avenir-medium.woff') format('woff'),
+         url('../fonts/avenir-medium.ttf') format('truetype'),
+         url('../fonts/avenir-medium.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
