@@ -101,7 +101,8 @@ nav {
 	padding: 1rem 0;
 }
 
-nav a.logo {
+nav span.logo {
+	cursor: pointer;
 	float: left;
 	display: block;
 	width: 40px;
