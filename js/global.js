@@ -40,7 +40,7 @@ $(document).ready(function() {
         $('#ProjectDetail .grid').load($this.data('url'), function() {
 
             $('html, body').animate({
-                scrollTop: ($('#ProjectDetail .grid').offset().top -50)
+                scrollTop: ($('#ProjectDetail .grid').offset().top -70)
             },700,'easeInOutExpo');
 
         });
