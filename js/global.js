@@ -20,7 +20,7 @@ $(document).ready(function() {
     $('#projects-li').click(function() {
         console.log("me click");
         $('html, body').animate({
-            scrollTop: ($('#Projects').offset().top -70)
+            scrollTop: ($('#Projects').offset().top -130)
         },700,'easeInOutExpo');
     });
 
