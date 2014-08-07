@@ -114,7 +114,7 @@ $(document).ready(function() {
 
     // THUMB CLICK
 
-    $('.wctl').click(function() {
+    $('.thumb').click(function() {
         //i sets the index in the project list which we will worry about later for prev/next implementations
         i = $(this).data('num');
         $('#ProjectDetail .grid').load($(this).data('url'), function() {
