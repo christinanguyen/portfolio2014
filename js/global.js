@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
 // ME LINK
-
     $('#me-li').click(function() {
         console.log("me click");
         $('html, body').animate({
@@ -32,8 +31,7 @@ $(document).ready(function() {
         },700,'easeInOutExpo');
     });
 
-    // THUMB CLICK
-
+// THUMB CLICK
     $('.thumb').click(function(event) {
         event.preventDefault();
         $this = $(this);
@@ -42,7 +40,7 @@ $(document).ready(function() {
         $('#ProjectDetail .grid').load($this.data('url'), function() {
 
             $('html, body').delay(100).animate({
-                scrollTop: ($('#ProjectDetail .grid').offset().top +2)
+                scrollTop: ($('#ProjectDetail .grid').offset().top -50)
             },700,'easeInOutExpo');
 
         });
