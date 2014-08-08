@@ -9,7 +9,7 @@
             <g id="project-nav" transform="translate(405.000000, 4443.000000)" sketch:type="MSShapeGroup">
                 <g id="projectNav_close" transform="translate(297.000000, 0.000000)">
                     <path d="M27.1069197,54.222475 L0,27.1112375 L27.1069197,0 L54.2134649,27.1112375 L27.1069197,54.222475 L27.1069197,54.222475 Z M2.6488444,27.1112375 L27.1069197,51.5732087 L51.5649951,27.1112375 L27.1069197,2.64964099 L2.6488444,27.1112375 L2.6488444,27.1112375 Z" id="Fill-1" fill="#111111"></path>
-                    <g id="x" transform="translate(19.636364, 19.636364)" stroke="#111111" stroke-width="5" stroke-linecap="square">
+                    <g id="x" transform="translate(19.636364, 19.636364)" stroke="#11C9A2" stroke-width="5" stroke-linecap="square">
                         <path d="M15.0779221,0.350649351 L0.594787955,14.8337835" id="Line"></path>
                         <path d="M15.0779221,0.350649351 L0.594787955,14.8337835" id="Line-2" transform="translate(7.714286, 7.714286) rotate(-270.000000) translate(-7.714286, -7.714286) "></path>
                     </g>

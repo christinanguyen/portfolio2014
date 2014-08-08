@@ -54,7 +54,7 @@ $(document).ready(function() {
     $('.close').click(function(event) {
         event.preventDefault();
         $('html, body').animate({
-            scrollTop: ($('#Projects').offset().top -70)
+            scrollTop: ($('#Projects').offset().top -130)
         },700,'easeInOutExpo', function() {
             $('#ProjectDetail .grid').hide();
             $('.projectNav').hide();
@@ -62,6 +62,7 @@ $(document).ready(function() {
 
         i=0;
     });
+    
 
 // PROJECT NAV
 

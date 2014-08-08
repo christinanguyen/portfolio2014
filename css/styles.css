@@ -14,7 +14,8 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
   clear: both;
 }
 
-.grid {
+.grid,
+.projectNav {
 	padding: 0 15px;
 	padding: 0 1.5rem;
 	max-width: 1024px;
@@ -412,8 +413,21 @@ header #HeroName {
 }
 
 .projectNav .close {
-	background: url('../images/projectNav_close.png') center no-repeat;
+	background: url('../images/projectNav_close@2x.png') center no-repeat;
 	background-image: url('../images/projectNav_close.svg'), none;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	
+	-webkit-background-size: 80%;
+	-moz-background-size: 80%;
+	-o-background-size: 80%;
+	background-size: 80%;
+}
+
+.projectNav .close:hover {
+	background: url('../images/projectNav_closeHover@2x.png') center no-repeat;
+	background-image: url('../images/projectNav_closeHover.svg'), none;
 	width: 50px;
 	height: 50px;
 	margin: 0 auto;
@@ -873,8 +887,8 @@ footer a.spotify {
 		bottom: 170px;
 		right: 10%;
 		
-		-webkit-animation: floating 42s ease-in-out infinite;
-		-moz-animation: floating 42s ease-in-out infinite;
+		-webkit-animation: floating 30s ease-in-out infinite;
+		-moz-animation: floating 30s ease-in-out infinite;
 	}
 	
 	#Me .likes .pcgaming {
@@ -903,7 +917,8 @@ footer a.spotify {
 }
 
 @media screen and (min-width: 65em) {
-	.grid {
+	.grid,
+	.projectNav {
 		padding: 0;
 	}
 }
