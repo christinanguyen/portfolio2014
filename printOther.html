@@ -8,7 +8,16 @@
 </div>
 
 <div class="projectImages">
-	<img src="images/print_seniorShow@2x.jpg" alt="Senior Show Poster" />
-	<img src="images/print_lcdSoundsystem@2x.jpg" alt="LCD Soundsystem Poster" />
-	<img src="images/print_daVinciCenter@2x.png" class="noShadowLogo" alt="VCU daVinci Center Logo" />
+	<img data-original="images/print_seniorShow@2x.jpg" class="lazy" width"1400" height="1866" alt="Senior Show Poster" />
+	<img data-original="images/print_lcdSoundsystem@2x.jpg" class="lazy" width"1400" height="1860" alt="LCD Soundsystem Poster" />
+	<img data-original="images/print_daVinciCenter@2x.png" class="noShadowLogo lazy" class="lazy" width"800" height="966" alt="VCU daVinci Center Logo" />
 </div>
+
+<script>
+    $(function() {
+        $("img.lazy").lazyload({
+            effect : "fadeIn",
+            threshold : 200
+        });
+    });
+</script>

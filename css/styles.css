@@ -130,7 +130,7 @@ nav ul li {
 
 nav ul li span {
 	cursor: pointer;
-	font-family: 'Avenir Regular', 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'Avenir Medium', 'Helvetica Neue', Arial, sans-serif;
 	color: #111;
 	font-size: 16px;
 	font-size: 1.6rem;
@@ -172,14 +172,6 @@ header#Hero h1, footer h2 {
 	font-size: 2.4rem;
 	text-align: left;
 	color: white;
-}
-
-header #HeroName {
-	width: 90%;
-	height: auto;
-	margin: 0 auto;
-	position: absolute;
-	left: 0; right: 0; bottom: -50px;
 }
 
 /*=============== PROJECTS ===============*/
@@ -241,6 +233,8 @@ header #HeroName {
 	display: none;
 	margin-top: 13px;
 	margin-top: 1.3rem;
+	font-size: 18px;
+	font-size: 1.8rem;
 	
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
@@ -346,7 +340,6 @@ header #HeroName {
 	width: 90%;
 	height: auto;
 	max-width: 700px;
-	display: block;
 	margin: 0 auto 50px auto;
 	margin: 0 auto 5rem auto;
 	
@@ -360,6 +353,7 @@ header #HeroName {
 }
 
 .noShadowLogo {
+	display: block;
 	-webkit-box-shadow: none !important;
 	-moz-box-shadow: none !important;
 	box-shadow: none !important;
@@ -369,6 +363,7 @@ header #HeroName {
 .noShadow {
 	-webkit-box-shadow: none !important;
 	-moz-box-shadow: none !important;
+	box-shadow: none !important;
 	max-width: 1024px !important;
 }
 
@@ -486,7 +481,7 @@ header #HeroName {
 /*=============== FOOTER ===============*/
 
 footer {
-	background-color: red;
+	background-color: #18EABD;
 	margin-top: -9px;
 	margin-top: -0.9rem;
 	padding: 50px 0;
@@ -623,14 +618,8 @@ footer a.spotify {
 	/* Header */
 	
 	#Hero .title {
-		margin-top: 50px;
-		margin-top: 5rem;
-	}
-	
-	header #HeroName {
-		width: 70%;
-		max-width: 663px;
-		bottom: 0;
+		margin-top: 40px;
+		margin-top: 4rem;
 	}
 	
 	/* Projects */
@@ -797,13 +786,6 @@ footer a.spotify {
 }
 
 @media screen and (min-width: 60em) {
-	/* Header */
-	
-	header #HeroName {
-		width: 50%;
-		height: auto;
-	}
-
 	/* Projects */
 	
 	#Projects ul {

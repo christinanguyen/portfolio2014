@@ -15,12 +15,11 @@
 	<img data-original="images/wctl_desktop_LM@2x.jpg" class="lazy" width"1400" height="1544" alt="We Come to Learn Website" />
 </div>
 
-
-<script type="text/javascript" src="js/lazyload.js"></script>
 <script>
     $(function() {
         $("img.lazy").lazyload({
-            effect : "fadeIn"
+            effect : "fadeIn",
+            threshold : 200
         });
     });
 </script>

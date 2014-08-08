@@ -4,10 +4,19 @@
 </div>
 
 <div class="text">
-	<p>Chloe's Desserts is a bakery started by the girlfriend of a good friend of mine. She wanted to go for a design reminiscent of the 1950's &endash; 1960's while being humble with a lot of love. I designed both the logo and the single-page website, going for whimsical typography and patterns.</p>
+	<p>Chloe's Desserts is a bakery started by an acquaintance of mine. She wanted to go for a design reminiscent of a 1950's &ndash; 1960's with earthy tones. I designed both the logo and the single-page website, going for whimsical typography and patterns to match her vivacious spirit.</p>
 </div>
 
 <div class="projectImages">
-	<img src="images/cd_logo@2x.png" class="noShadowLogo" alt="Chloe's Desserts Logo" />
-	<img src="images/cd_desktop@2x.jpg" alt="Chloe's Desserts Website" />
+	<img data-original="images/cd_logo@2x.png" class="noShadowLogo lazy" width"540" height="592" alt="Chloe's Desserts Logo" />
+	<img data-original="images/cd_desktop@2x.jpg" class="lazy" width"1400" height="6632" alt="Chloe's Desserts Website" />
 </div>
+
+<script>
+    $(function() {
+        $("img.lazy").lazyload({
+            effect : "fadeIn",
+            threshold : 200
+        });
+    });
+</script>

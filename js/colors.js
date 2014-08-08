@@ -38,7 +38,7 @@ var color2 = "#"+((r2 << 16) | (g2 << 8) | b2).toString(16);
 
  $('#Hero, footer').css({
    background: "-webkit-gradient(linear, left top, left bottom, from("+color1+"), to("+color2+"))"}).css({
-    background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
+    background: "-moz-linear-gradient(top, "+color1+" 0%, "+color2+" 100%)"});
   
   step += gradientSpeed;
   if ( step >= 1 )

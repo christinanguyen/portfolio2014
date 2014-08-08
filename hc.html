@@ -4,24 +4,35 @@
 </div>
 
 <div class="text">
-	<p>HealthComm is a company that specializes in building digital solutions for healthcare companies. To match with the company's frank style of communication, the design is no-nonsense and to-the-point, since healthcare companies are often pitched to with fluff.</p>
+	<p>HealthComm is a company that specializes in building digital solutions for healthcare companies. To match with the company's frank tone, the design is no-nonsense and to-the-point, since healthcare companies are often pitched to with fluff.</p>
 	<p>I designed the logo and the website. I shared this proposal internally.</p>
 </div>
 
 <div class="projectImages">
+
+	<img data-original="images/hc_logo@2x.png" class="noShadowLogo lazy" width"718" height="102" alt="HealthComm Logo" />
 	
 	<div class="col-1-3">
-		<img src="images/hc_mobile_1@2x.jpg" alt="HealthComm Mobile Website" />
+		<img data-original="images/hc_mobile_1@2x.jpg" class="lazy" width"480" height="852" alt="HealthComm Mobile Website" />
 	</div>
 	
 	<div class="col-1-3">
-		<img src="images/hc_mobile_2@2x.jpg" alt="HealthComm Mobile Website" />
+		<img data-original="images/hc_mobile_2@2x.jpg" class="lazy" width"480" height="852" alt="HealthComm Mobile Website" />
 	</div>
 	
 	<div class="col-1-3">
-		<img src="images/hc_mobile_3@2x.jpg" alt="HealthComm Mobile Website" />
+		<img data-original="images/hc_mobile_3@2x.jpg" class="lazy" width"480" height="852" alt="HealthComm Mobile Website" />
 	</div>
 	
-	<img src="images/hc_desktop@2x.jpg" alt="HealthCommm Desktop Website" />
+	<img data-original="images/hc_desktop@2x.jpg" class="lazy" width"1400" height="5970" alt="HealthCommm Desktop Website" />
 	
 </div>
+
+<script>
+    $(function() {
+        $("img.lazy").lazyload({
+            effect : "fadeIn",
+            threshold : 200
+        });
+    });
+</script>

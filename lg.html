@@ -4,13 +4,22 @@
 </div>
 
 <div class="text">
-	<p>Lazarus Gaming was a StarCraft 2 professional team that was started by a guy who wanted to make a team with friends. Being an avid gamer myself, I was more than excited to work for a pro team! He hired me to do all design work, from the logo to the website. I wanted to make the team's identity to stand shoulder-to-shoulder with the more famous and well-funded teams.</p>
+	<p>Lazarus Gaming was a StarCraft 2 professional team that was started by a guy who wanted to make a team with friends. Being an avid gamer myself, I was more than excited to work for a pro team! He hired me to do all design work, from the logo to the website. I wanted to make the team's identity to stand toe-to-toe with the more famous and well-funded teams.</p>
 </div>
 
 <div class="projectImages">
-	<img src="images/lg_logo@2x.png" class="noShadowLogo" alt="Lazarus Gaming Logo" />
-	<img src="images/lg_desktop_1@2x.jpg" alt="Lazarus Gaming Website" />
-	<img src="images/lg_desktop_2@2x.jpg" alt="Lazarus Gaming Website" />
-	<img src="images/lg_tshirt_template@2x.jpg" alt="Lazarus Gaming T-shirts" />
-	<img src="images/lg_hdsc@2x.jpg" alt="Lazarus Gaming T-shirts" />
+	<img data-original="images/lg_logo@2x.png" class="noShadowLogo lazy" width"582" height="680" alt="Lazarus Gaming Logo" />
+	<img data-original="images/lg_desktop_1@2x.jpg" class="lazy" width"1400" height="1350" alt="Lazarus Gaming Website" />
+	<img data-original="images/lg_desktop_2@2x.jpg" class="lazy" width"1400" height="1582" alt="Lazarus Gaming Website" />
+	<img data-original="images/lg_tshirt_template@2x.jpg" class="lazy" width"1400" height="924" alt="Lazarus Gaming T-shirts" />
+	<img data-original="images/lg_hdsc@2x.jpg" class="lazy" width"1272" height="714" alt="Lazarus Gaming T-shirts" />
 </div>
+
+<script>
+    $(function() {
+        $("img.lazy").lazyload({
+            effect : "fadeIn",
+            threshold : 200
+        });
+    });
+</script>

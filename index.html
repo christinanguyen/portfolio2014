@@ -40,11 +40,9 @@
             <div class="grid">
                 <div class="title">
                     <hr>
-                    <h1>I’m a digital designer that wholly embraces the ever-changing landscape of the web and technology.</h1>
+                    <h1>My name's Christina, and I’m a digital designer that wholly embraces the ever-changing landscape of the web and technology.</h1>
                 </div>
             </div>
-            
-            <img id="HeroName" src="images/hero_final@2x.png" />
             
         </header>
         
@@ -63,7 +61,7 @@
                             </li>
                             <li class="pier2934">
                                 <a href="#" data-num="1" data-url="pier2934.html" class="thumb">
-                                    <h3>Pier 2934 Cajun Seafood</h3>
+                                    <h3>Pier 2934</h3>
                                 </a>
                             </li>
                             <li class="cahca">
@@ -120,7 +118,7 @@
                 
                     <div class="grid">
                     
-                        <img class="mePhoto" src="images/me@2x.png" alt="Just lil' ol' me" />
+                        <img class="mePhoto lazy" width="420" height="420" data-original="images/me@2x.png" alt="Just lil' ol' me" />
 
                         <div class="title">
                             <hr>
@@ -177,13 +175,20 @@
             
         </div><!-- end #Container -->
         
+        <link rel="stylesheet" href="css/fonts.css"/>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/colors.js"></script>
         <script type="text/javascript" src="js/min/jquery.easing.min.js"></script>
         <script type="text/javascript" src="js/global.js"></script>
+        <script type="text/javascript" src="js/lazyload.js"></script>
+        <script>
+            $(function() {
+                $("img.lazy").lazyload({
+                    effect : "fadeIn",
+                    threshold : 200
+                });
+            });
+        </script>
         
     </body>
-        
-        <link rel="stylesheet" href="css/fonts.css"/>
-
 </html>

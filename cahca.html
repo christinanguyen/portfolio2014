@@ -4,26 +4,35 @@
 </div>
 
 <div class="text">
-	<p>CareersAtHCA is Hospital Corporation of America's central website that connects them and career-seeking individuals. Not only does it let a visitor search for jobs, but they could also view facility information, news associated with that facility, and demographics to help them make a more informed decision about their career.</p>
+	<p>CareersAtHCA is Hospital Corporation of America's central website that connects the company to career-seeking individuals. Not only does it let a visitor search for jobs but also facility information, news associated with that facility, and demographics to help them make a more informed decision about their career.</p>
 	<p>I was a part of the UX process, charting userflows along with wireframes, and also shared my design ideas internally. I wanted to modernize, streamline, and generally lighten their current design.</p>
 </div>
 
 <div class="projectImages">
 	
 	<div class="col-1-3">
-		<img src="images/cahca_mobile_1@2x.jpg" alt="CareersAtHCA Mobile Website" />
+		<img data-original="images/cahca_mobile_1@2x.jpg" class="lazy" width"480" height="852" alt="CareersAtHCA Mobile Website" />
 	</div>
 	
 	<div class="col-1-3">
-		<img src="images/cahca_mobile_2@2x.jpg" alt="CareersAtHCA Mobile Website" />
+		<img data-original="images/cahca_mobile_2@2x.jpg" class="lazy" width"480" height="852" alt="CareersAtHCA Mobile Website" />
 	</div>
 	
 	<div class="col-1-3">
-		<img src="images/cahca_mobile_3@2x.jpg" alt="CareersAtHCA Mobile Website" />
+		<img data-original="images/cahca_mobile_3@2x.jpg" class="lazy" width"480" height="852" alt="CareersAtHCA Mobile Website" />
 	</div>
 
-	<img src="images/cahca_desktop_1@2x.jpg" alt="CareersAtHCA Desktop Website" />
-	<img src="images/cahca_desktop_2@2x.jpg" alt="CareersAtHCA Desktop Website" />
-	<img src="images/cahca_desktop_3@2x.jpg" alt="CareersAtHCA Desktop Website" />
+	<img data-original="images/cahca_desktop_1@2x.jpg" class="lazy" width"1400" height="3424" alt="CareersAtHCA Desktop Website" />
+	<img data-original="images/cahca_desktop_2@2x.jpg" class="lazy" width"1400" height="3924" alt="CareersAtHCA Desktop Website" />
+	<img data-original="images/cahca_desktop_3@2x.jpg" class="lazy" width"1400" height="3454" alt="CareersAtHCA Desktop Website" />
 	
 </div>
+
+<script>
+    $(function() {
+        $("img.lazy").lazyload({
+            effect : "fadeIn",
+            threshold : 200
+        });
+    });
+</script>
