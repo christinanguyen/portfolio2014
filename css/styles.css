@@ -372,6 +372,7 @@ header #HeroName {
 }
 
 .projectNav {
+	display: none;
 	margin-bottom: 100px;
 	margin-bottom: 10rem;
 }
